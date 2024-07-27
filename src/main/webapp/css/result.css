@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+}
+
+h1 {
+    color: #2a5d34;
+}
+
+h2, h3, h4 {
+    color: #2a5d34;
+}
+
+h4 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #4a752c;
+    color: white;
+    font-weight: bold;
+}
+
+.table .good, .good {
+    background-color: #90ee90; /* Light green */
+    color: black;
+}
+
+.table .moderate, .moderate {
+    background-color: #ffffe0; /* Yellow */
+    color: black;
+}
+
+.table .sensitive, .sensitive {
+    background-color: #ffa500; /* Orange */
+    color: black;
+}
+
+.table .unhealthy, .unhealthy {
+    background-color: #ff4500; /* Red */
+    color: black;
+}
+
+.table .very-unhealthy, .very-unhealthy {
+    background-color: #9400d3; /* Purple */
+    color: black;
+}
+
+.table .hazardous, .hazardous {
+    background-color: #8b4513; /* Brown */
+    color: black;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #218838;
+}
