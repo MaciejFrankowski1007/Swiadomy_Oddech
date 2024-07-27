@@ -7,12 +7,8 @@ body {
     background-size: cover;
 }
 
-h1 {
-    color: #2a5d34;
-}
-
-h2, h3, h4 {
-    color: #2a5d34;
+h1, h2, h3, h4 {
+    color: #2a547d;
 }
 
 h4 {
@@ -38,45 +34,45 @@ p {
 }
 
 .table th {
-    background-color: #4a752c;
+    background-color: #475c72;
     color: white;
     font-weight: bold;
 }
 
 .table .good, .good {
-    background-color: #90ee90; /* Light green */
+    background-color: #b3d4ff;
     color: black;
 }
 
 .table .moderate, .moderate {
-    background-color: #ffffe0; /* Yellow */
+    background-color: #80bfff;
     color: black;
 }
 
 .table .sensitive, .sensitive {
-    background-color: #ffa500; /* Orange */
+    background-color: #4da6ff;
     color: black;
 }
 
 .table .unhealthy, .unhealthy {
-    background-color: #ff4500; /* Red */
+    background-color: #0080ff;
     color: black;
 }
 
 .table .very-unhealthy, .very-unhealthy {
-    background-color: #9400d3; /* Purple */
+    background-color: #0052cc;
     color: black;
 }
 
 .table .hazardous, .hazardous {
-    background-color: #8b4513; /* Brown */
+    background-color: #003380;
     color: black;
 }
 
 a {
     display: inline-block;
     margin-top: 20px;
-    background-color: #28a745;
+    background-color: #287ba7;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -88,5 +84,5 @@ a {
 }
 
 a:hover {
-    background-color: #218838;
+    background-color: #216882;
 }

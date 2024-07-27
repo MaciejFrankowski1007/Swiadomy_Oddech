@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         .then(response => response.json())
                         .then(data => {
                             if (!data.results || data.results.length === 0) {
-                                throw new Error('No results found for the given location.');
+                                throw new Error('Nie znaleziono wyniku, dla podanej lokalizacji');
                             }
                             const city = data.results[0].address_components.find(c => c.types.includes('locality')).long_name;
                             const state = data.results[0].address_components.find(c => c.types.includes('administrative_area_level_1')).long_name;
@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             fetch(airQualityUrl)
                                 .then(response => {
                                     if (!response.ok) {
-                                        console.error(`Response error: Status ${response.status} - ${response.statusText}`);
-                                        throw new Error(`Network response was not ok: ${response.statusText}`);
+                                        console.error(`Błąd: Status ${response.status} - ${response.statusText}`);
+                                        throw new Error(`Błąd: Status ${response.statusText}`);
                                     }
                                     return response.json();
                                 })
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     }).toString();
                                     window.location.href = `result.jsp?${queryParams}`;
                                 })
-                                .catch(error => console.error('Error:', error));
+                                .catch(error => console.error('Błąd:', error));
                         })
                         .catch(error => console.error('Problem z Geolokacją:', error));
                 });

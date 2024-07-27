@@ -6,13 +6,12 @@
     <script src="${pageContext.request.contextPath}/js/script.js"></script>
 </head>
 <body>
-<h1>Check Air Quality</h1>
+<h1>Sprawdź, czym oddychasz</h1>
 <form action="getAirQualityByCity" method="get">
     <label for="city">City:</label>
     <input type="text" id="city" name="city">
     <br>
-    <input type="submit" value="Get Air Quality">
+    <input type="submit" value="Dalej">
 </form>
-<button id="use-my-location">Use My Location</button>
 </body>
 </html>

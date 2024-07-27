@@ -70,7 +70,9 @@
 </table>
 
 <h4>Dominant Pollutant (Dominujące Zanieczyszczenia)</h4>
-<p>PM 2.5 - pył składający się z cząstek o średnicy do 2.5 mikrogramów</p>
+<p>PM 2.5 - pył składający się z cząstek o średnicy do 2.5 mikrometrów</p>
+<p>PM 10 - pył składający się z cząsteczek, których średnica nie przekracza 10 mikrometrów</p>
+<p>O3 - wysoki poziom ozonu, który powoduje problemy z oddychaniem, może wywoływać astmę oraz powoduje choroby płuc</p>
 <a href="login">Back</a>
 </body>
 </html>
